@@ -1,6 +1,6 @@
 <script>
-	import FeaturesIcon from '$lib/icons/features.svelte';
-	import InfoIcon from '$lib/icons/info.svelte'
+	import ProjectIcon from '$lib/icons/projects.svelte';
+	import BlogIcon from '$lib/icons/blog.svelte'
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
@@ -13,15 +13,19 @@
 		<span class="right">and sometimes write about it</span>
 	</p>
 	<div class="ctas">
+		<Button ref="projects-btn" style="understated" color="primary" href="http://localhost:5173/#Projects">
+			<ProjectIcon slot="icon" />
+			Projects
+		</Button>
 		<Sparkles>
 			<Button href="http://localhost:5173/blog">
-				<InfoIcon slot="icon" />
+				<BlogIcon slot="icon" />
 				Blog
 			</Button>
 		</Sparkles>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<InfoIcon slot="icon" />
-			Components
+		<Button ref="experience-btn" style="understated" color="secondary" href="http://localhost:5173/#Projects">
+			<ProjectIcon slot="icon" />
+			Experience
 		</Button>
 	</div>
 </section>

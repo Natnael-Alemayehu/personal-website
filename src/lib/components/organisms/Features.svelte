@@ -4,6 +4,9 @@
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 
 	export let features: Feature[];
+
+	// console.log(features)
+
 </script>
 
 <ContentSection

@@ -1,9 +1,13 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
 
+	export let additionalClass: string | undefined = undefined;
+
+
 	export let src: string;
 	export let alt: string;
 	export let fullBleed: boolean | undefined = undefined;
+	export let skipSrcset: boolean = false;
 
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
