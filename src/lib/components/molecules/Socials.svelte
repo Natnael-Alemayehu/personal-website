@@ -9,7 +9,7 @@
 
 <div class="socials">
 	<a
-		href="#"
+		href="https://t.me/Natii_alex"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Say Hi on Telegram"
@@ -17,7 +17,7 @@
 		<TelegramIcon />
 	</a>
 	<a
-		href="#"
+		href="https://mastodon.social/@natenine"
 		target="_blank"
 		rel="me noreferrer"
 		title="Say Hi on Mastodon"
@@ -25,7 +25,7 @@
 		<MastodonIcon />
 	</a>
 	<a
-		href="#"
+		href="https://github.com/Natnael-Alemayehu"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,7 +33,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="#"
+		href="https://www.linkedin.com/in/natnaelalemayehu"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,7 +41,7 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="mailto:se.natnael.alemayehu@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"

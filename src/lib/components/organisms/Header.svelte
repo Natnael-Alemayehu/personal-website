@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
+	import Socials from '../molecules/Socials.svelte';
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
 
@@ -12,8 +13,11 @@
 			<Logo />
 		</a>
 		<div class="links">
+			<div class="socials">
+				<Socials />
+			</div>
 			<a href="/blog">Blog</a>
-			<RssLink />
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</nav>

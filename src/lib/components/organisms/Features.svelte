@@ -8,8 +8,8 @@
 
 <ContentSection
 	id="features"
-	title="Features"
-	description="Here are some of the features of this template"
+	title="Projects"
+	description="I like to build some small projects when learning. Technologies are varied and so are their purposes. Most of them are open source!"
 >
 	<div class="features-container">
 		<div class="three-group-grid">

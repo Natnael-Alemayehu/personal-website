@@ -7,17 +7,14 @@
 <section id="about">
 	<div class="info">
 		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
+			I am a developer aiming to build things that just
+			<SparklingHighlight color="secondary">Work!</SparklingHighlight>
 		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			I believe software should be accessible and enjoyable for everyone, whether they are developers or 
+			simply users, and that the joy of problem-solving is essential to achieving this.
 		</p>
-		<div class="socials">
-			<span>Socials:</span>
-			<Socials />
-		</div>
+		
 	</div>
 	<div class="image">
 		<Image
