@@ -16,6 +16,6 @@ export const keywords = [
 export const description =
 	"Natnael Alemayehu personal website";
 
-export const title = 'SvelteKit Static Blog';
+export const title = 'Natnael Alemayehu';
 
 export const image = `${siteBaseUrl}/images/site-preview.png`;
