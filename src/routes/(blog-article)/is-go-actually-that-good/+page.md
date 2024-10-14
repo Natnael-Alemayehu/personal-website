@@ -1,16 +1,16 @@
 ---
 title: Is Go actually that good?
 slug: is-go-actually-that-good
-coverImage: /images/posts/golang.svg
+coverImage: /images/posts/golang.png
 excerpt: Explore the key features that make Go (Golang) a popular choice for building scalable and high-performance applications.
 date: 2024-10-14T09:51:35.461Z
 updated: null
 hidden: false
 tags:
-  - Go
-  - Programming Languages
-  - Software Development
-  - Golang
+    - Go
+    - Programming Languages
+    - Software Development
+    - Golang
 keywords: []
 ---
 

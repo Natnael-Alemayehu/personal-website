@@ -25,6 +25,6 @@ export default [
     name: 'Movies API',
     description:
       'Movies is an api that is built with go. This project was an amazing introduction to Golang and the beautiful ecosystem on slack and reddit.',
-    image: 'images/posts/golang.svg',
+    image: 'images/posts/golang.png',
   },
 ] as Feature[];
