@@ -10,12 +10,12 @@
 @import '$lib/scss/_code-highlights.scss';
 @import '$lib/scss/animations.scss';
 
+@import '@fontsource/ubuntu-mono';
 @import '@fontsource/inter';
 @import '@fontsource/inter/600.css';
 @import '@fontsource/inter/700.css';
 @import '@fontsource/merriweather';
 @import '@fontsource/merriweather/900.css';
-@import '@fontsource/ubuntu-mono';
 
 body {
 	--body-background-color: var(--color--page-background);
@@ -37,12 +37,25 @@ body {
 }
 
 html {
-	scroll-behavior: smooth;
 	font-size: 18px;
 	width: 100%;
+
+	&.smooth-scroll {
+		scroll-behavior: smooth;
+		body {
+			scroll-behavior: smooth;
+		}
+	}
 }
 
 #svelte-root {
 	height: 100%;
 	position: relative;
+}
+
+* {
+	&:focus-visible {
+		outline: 2px dashed var(--color--secondary);
+		outline-offset: 4px;
+	}
 }

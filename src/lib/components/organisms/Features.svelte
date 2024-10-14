@@ -10,7 +10,7 @@
 </script>
 
 <ContentSection
-	id="features"
+	id="projects"
 	title="Projects"
 	description="I like to build some small projects when learning. Technologies are varied and so are their purposes. Most of them are open source!"
 >

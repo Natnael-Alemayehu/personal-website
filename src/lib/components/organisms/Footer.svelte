@@ -18,7 +18,7 @@
 				>SvelteKit</a
 			>. Icons by
 			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
-			Template was built by <a
+			Designed by <a
 				href="https://www.linkedin.com/in/matheus-fantinel/"
 				target="_blank"
 				rel="noopener noreferrer">Matheus Fantinel</a

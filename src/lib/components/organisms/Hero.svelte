@@ -13,17 +13,17 @@
 		<span class="right">and sometimes write about it</span>
 	</p>
 	<div class="ctas">
-		<Button ref="projects-btn" style="understated" color="primary" href="http://localhost:5173/#Projects">
+		<Button ref="projects-btn" style="understated" color="primary" href="#projects">
 			<ProjectIcon slot="icon" />
 			Projects
 		</Button>
 		<Sparkles>
-			<Button href="http://localhost:5173/blog">
+			<Button href="/blog">
 				<BlogIcon slot="icon" />
 				Blog
 			</Button>
 		</Sparkles>
-		<Button ref="experience-btn" style="understated" color="secondary" href="http://localhost:5173/#Projects">
+		<Button ref="experience-btn" style="understated" color="secondary" href="#experience">
 			<ProjectIcon slot="icon" />
 			Experience
 		</Button>
